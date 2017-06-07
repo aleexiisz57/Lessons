@@ -9,3 +9,7 @@ no_apple_students = 3
 desired_num_apples_2 = (number_of_students - no_apple_students) * apples_per_student
 print "I now have enough apples? %r" % (number_of_apples >= desired_num_apples_2)
 print "Oh! I have %d extra" % (number_of_apples - desired_num_apples_2)
+
+print "%r" % "I have a single quote '"
+print "%r" % 'I have a double quote "'
+print "%r" % "I have both quotes \" and '"

@@ -13,3 +13,11 @@ print "How many more apples do we need so that everyone can have 2?"
 print (number_of_students * apples_per_student) - number_of_apples 
 print "three kids decided they didnt want apples. How many apples do we have extra? %r" % (no_apple_students * apples_per_student)
 print "there is also 32 O.J cartons, and and 16 students, would they be able to have two juices? %r" % ( num_of_oj >= number_of_students_2)
+
+hours_nap = 1
+hours_day = 6
+hours_lunch = 0.45
+hours_study = 4.55
+hours_free_time = hours_nap + hours_lunch
+
+print hours_free_time
